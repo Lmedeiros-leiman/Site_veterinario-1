@@ -25,7 +25,7 @@ picture#imagemPrincipal .overlay > * {
 
 picture#imagemPrincipal {
     
-    background:url("/images/fotopatinha.webp");
+    background:url("https://raw.githubusercontent.com/Lmedeiros-leiman/Site_veterinario-1/main/images/fotopatinha.webp");
 
     height: 98vh;
     min-height: 550px;
