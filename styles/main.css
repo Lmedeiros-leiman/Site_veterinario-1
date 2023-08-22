@@ -24,18 +24,11 @@ picture#imagemPrincipal .overlay > * {
 }
 
 picture#imagemPrincipal {
-    
     background:url("https://raw.githubusercontent.com/Lmedeiros-leiman/Site_veterinario-1/main/images/fotopatinha.webp");
-
     height: 98vh;
     min-height: 550px;
-
     color:white;
-
-    
-    
     position: relative;
-    
 }
 
 .rounded {
@@ -49,12 +42,9 @@ picture#imagemPrincipal {
     text-align: center;
     display: flex;
     flex-direction: column;
-
     margin-left: auto;
     margin-right: auto;
-
     padding: 2.5rem;
-
     width: fit-content;
 }
 
@@ -67,23 +57,7 @@ picture .smallImageOverlay{
     height: 100%;
     background-color: rgba(93, 57, 223, 0.33);
     z-index: 10;
-
- 
 }
-
-
-
-
-
-button.whatsapp{
-    background-color: rgb(20, 179, 20);
-    transition: background-color ease-in-out 0.1s;
-}
-button.whatsapp:hover{
-    background-color: rgb(10, 99, 10);
-}
-
-
 .grid-container {
     padding-top: 1rem;
     
@@ -95,7 +69,6 @@ button.whatsapp:hover{
     align-content: center;
     
 }
-
 .grid-item {
     flex-basis: 90%;
     margin: 1rem;
@@ -105,6 +78,13 @@ button.whatsapp:hover{
     flex-direction: column-reverse;
     
 }
+
+
+
+
+
+
+
 
 @media (min-width: 768px) {
     .grid-item {
@@ -127,4 +107,99 @@ button.whatsapp:hover{
         flex-basis: 25%;
     }
     
+}
+
+
+
+
+
+
+
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.25rem;
+    background-color: rgb(135, 5, 187);
+    color:whitesmoke
+  }
+  
+  .footer-column {
+    flex: 1;
+    padding: 20px;
+    min-width: 250px;
+    text-align: center;
+  }
+  
+  /* Styles for logo and description */
+  .logo {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .description {
+    margin-top: 10px;
+  }
+  
+  /* Follow us section */
+  .follow-us {
+    margin-top: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    font-size: 200%;
+
+    
+  }
+  .social-icons a:hover {
+    color:white;
+  }
+  
+  /* Working hours section */
+  .working-hours ul {
+    list-style-type: none;
+    padding-top: 1rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  /* Contact us section */
+  .social-buttons {
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  
+  /* Location map */
+  .location-map iframe {
+    width: 100%;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media screen and (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+    }
+  }
+
+
+  
+.email{
+    background-color: blue;
+}   
+.email:hover{
+    background-color: rgb(9, 9, 153);
+}
+.whatsapp{
+    background-color: rgb(20, 179, 20);
+}
+.whatsapp:hover{
+    background-color: rgb(10, 99, 10);
 }
