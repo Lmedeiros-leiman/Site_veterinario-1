@@ -1,6 +1,7 @@
 @import url(./reseter.css);
 @import url(./iconColors.css);
 
+@import url(./main/navbar.css);
 @import url(./main/landing.css);
 @import url(./main/services.css);
 @import url(./main/footer.css);

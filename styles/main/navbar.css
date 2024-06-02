@@ -1,0 +1,28 @@
+#navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-block: 16px;
+    padding-inline: 24px;
+
+    box-shadow: 0px 0px 8px black;
+
+    position: fixed;
+
+    z-index: 10 ;
+    background-color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#navbar .navbar-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    
+    justify-content: center;
+    align-items: center;
+
+}
