@@ -1,7 +1,5 @@
-# Site_veterinario-1
+# Modelo Website Veterinário com uma landing page e uma pequena seção de serviços e um rodapé.
 
-Um pequeno website para um veterinário freelancer.
-importante:
-executar node install
-o projeto utiliza os seguintes componentes node:
-  -- bootstrap icons
+Criado com HTML-CSS básicos.
+
+Para usar basta apenas abrir o arquivo index.html com um interpretador HTML, como um navegador web.
