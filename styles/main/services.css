@@ -21,10 +21,7 @@
     font-size: x-large;
     text-align: center;
 }
-#services a.button {
-    margin-top: 16px;
-    padding: 12px 64px 12px 64px;
-}
+
 
 #services section {
     display: flex;
