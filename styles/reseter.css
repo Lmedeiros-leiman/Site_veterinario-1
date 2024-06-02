@@ -19,7 +19,9 @@ body{
     justify-content: center;
     align-items: center;
 }
-
+a:has(i){
+    text-decoration: none;
+}
 a.button{
     background-color: greenyellow;
     transition: all 0.4s ease-in-out;
