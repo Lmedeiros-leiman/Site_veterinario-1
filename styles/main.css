@@ -9,7 +9,7 @@
 
 /* Importa icones NerdFont */
 
-@import "../nerdFont.css";
+@import url(../assets/icons/NerdFonts.css);
 
 .separated {
     position: relative;
