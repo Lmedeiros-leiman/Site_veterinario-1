@@ -1,0 +1,52 @@
+#special 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block: 16px;
+}
+#special > a.button {
+    margin-top: 8px;
+    padding: 12px 64px 12px 64px;
+}
+#special > section 
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: center;
+    
+    gap: 24px;
+    padding-block: 32px;
+
+    
+}
+#special > section  > div{
+
+    box-shadow: 1px 1px 8px black;
+    max-width: 124px;
+    width: 124px;
+
+    height: 132px;
+
+    text-align: center;
+    margin-inline: 4px;
+    padding: 16px 8px 16px 8px;
+    border-radius: 12px;
+    
+}
+
+#special > section  > div i{
+    color: #0063A0;
+    margin-bottom: auto;
+
+    font-size: 48px;
+    width: 48px;
+    height: 48px;
+}
+#special > section  > div > div{
+    
+    margin-top: 12px;
+}

@@ -1,0 +1,88 @@
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.25rem;
+    background-color: rgb(135, 5, 187);
+    color:whitesmoke
+  }
+  
+  .footer-column {
+    flex: 1;
+    padding: 20px;
+    min-width: 250px;
+    text-align: center;
+  }
+  
+  /* Styles for logo and description */
+  .logo {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .description {
+    margin-top: 10px;
+  }
+  
+  /* Follow us section */
+  .follow-us {
+    margin-top: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    font-size: 200%;
+
+    
+  }
+  .social-icons a:hover {
+    color:white;
+  }
+  
+  /* Working hours section */
+  .working-hours ul {
+    list-style-type: none;
+    padding-top: 1rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  /* Contact us section */
+  .social-buttons {
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  
+  /* Location map */
+  .location-map iframe {
+    width: 100%;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media screen and (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+    }
+  }
+
+
+  
+.email{
+    background-color: blue;
+}   
+.email:hover{
+    background-color: rgb(9, 9, 153);
+}
+.whatsapp{
+    background-color: rgb(20, 179, 20);
+}
+.whatsapp:hover{
+    background-color: rgb(10, 99, 10);
+}
