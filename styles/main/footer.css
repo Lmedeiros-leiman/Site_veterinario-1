@@ -1,0 +1,46 @@
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap-reverse;
+    padding-block: 8px;
+    background-color: rebeccapurple;
+
+    
+}
+#footer section:first-child{
+    min-width: 480px;
+    width: 75%;
+    height: 480px;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+#footer section {
+    color: white;
+}
+#footer form {}
+
+#footer form input {
+    padding: 8px;
+}
+
+#footer form input[type=email] {}
+
+#footer form input[type=submit] {
+    color: black;
+    background-color: greenyellow;
+    cursor: pointer;
+    transition: all 0.33s ease-in-out;
+}
+#footer form input[type=submit]:hover {
+    color: white;
+    background-color: green;
+}

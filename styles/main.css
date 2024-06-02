@@ -9,5 +9,21 @@
 
 /* Importa icones NerdFont */
 
-@import "https://www.nerdfonts.com/assets/css/webfont.css"
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
 
+.separated {
+    position: relative;
+    margin-top: 32px;
+}
+
+.separated ::before {
+    position: absolute;
+    content: "";
+    z-index: 50;
+    background-color: white;
+    width: 80%;
+    height: 2px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
