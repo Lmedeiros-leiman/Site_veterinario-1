@@ -2,7 +2,7 @@
 #landing {
   width: 100vw;
   height: 100vh;
-  background: url("/assets/images/fotopatinha.webp");
+  background: url("/assets/images/landing.webp");
 
   background-attachment: fixed;
 }
@@ -22,9 +22,13 @@
 
 #landing h1 {
   color: rebeccapurple;
+  font: bold max(36px, 4vw) / max(48px,5vw);
 }
 
-#landing h2 { color: white; text-shadow:  1px 1px  black;}
+#landing h2 { 
+  color: white; 
+  text-shadow:  1px 1px  black;
+}
 
 #landing aside div{
   display: flex;
